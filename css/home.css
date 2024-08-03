@@ -1,0 +1,835 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: codecproitalic;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@font-face {
+  src: url(../fonts/Ara\ Hamah\ Homs.ttf);
+  font-family: homs;
+}
+
+@font-face {
+  src: url(../fonts/CodecPro-Italic.ttf);
+  font-family: codecproitalic;
+}
+
+@font-face {
+  src: url(../fonts/Ara\ Hamah\ 1964\ R.ttf);
+  font-family: ara;
+}
+
+@media (max-width: 430px) {
+  .bac-color-header {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+  }
+
+  .img-back-hedear {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+    background-image: url(../imgs/back-light-img.JPG);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .color-hedear {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9f6;
+  }
+
+  .dalya-header {
+    position: absolute;
+    width: 170px;
+    right: -55px;
+    top: -5px;
+  }
+
+  .header-name-one {
+    font-size: 48px;
+    color: #ff7b01;
+    font-weight: bold;
+    font-family: ara;
+    display: block;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+
+  .header-name-two {
+    display: block;
+    font-size: 23px;
+    margin-left: 53px;
+    font-family: ara;
+    margin-top: -3px;
+  }
+
+  .header-name-three {
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: ara;
+  }
+
+  .watch-btn {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: ara;
+    margin-top: 120px;
+    margin-left: 50px;
+  }
+
+  .sersh-con {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  #myInput {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 15px;
+
+    height: 20px;
+  }
+
+  .con-serch-product {
+    width: 98%;
+    height: 300px;
+    overflow-y: scroll;
+
+    position: relative;
+  }
+
+  #myUL {
+    width: 98%;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    margin-top: 5px;
+    position: relative;
+    background-color: #ffffff;
+    max-width: 400px;
+    display: none;
+    z-index: 5;
+  }
+
+  #myUL::-webkit-scrollbar {
+    display: none;
+  }
+
+  #myUL li {
+    border-bottom: 1px solid rgb(134, 134, 134);
+    background-color: white;
+  }
+
+  #myUL li a {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    padding-left: 5px;
+
+    gap: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 6;
+  }
+
+  #myUL li a:hover {
+    background-color: #efefef;
+    transition: 0.3s;
+  }
+
+  .img-product-serch {
+    width: 40px;
+  }
+
+  .vv {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .watch-btn-scroll-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: ara;
+  }
+
+  .watch-btn-scroll-link:hover {
+    background-color: #ff7b01;
+    transition: 0.3s;
+  }
+
+  .fixed-icons-con {
+    width: 100%;
+    height: 50px;
+    background-color: #cdcdcd;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    gap: 25px;
+    border-radius: 25px 25px 0px 0px;
+  }
+
+  .fixed-all {
+    width: 60px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: -22.5px;
+  }
+
+  .bosters {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .bosters-all {
+    width: 50%;
+    height: 80px;
+    background-color: aquamarine;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .boster-one {
+    background-image: url(../imgs/banel-e3lan.jpg);
+  }
+
+  .boster-two {
+    background-image: url(../imgs/trac-e3lan.jpg);
+  }
+
+  .boster-three {
+    background-image: url(../imgs/led-profile-e3lan.jpg);
+  }
+
+  .boster-four {
+    background-image: url(../imgs/esbot-e3lan.jpg);
+  }
+
+  .color-product-hrader,
+  .color-boster-hrader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .color-boster-hrader {
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    font-size: 15px;
+    font-family: ara;
+    height: 25%;
+    bottom: 0;
+  }
+
+  .link-boster-home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .COLOR-BACK-ONE {
+    background-color: rgba(0, 0, 0, 0.356);
+  }
+
+  .color-product-hrader:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+    transition: 0.3s;
+  }
+
+  .watch-scroll {
+    margin-top: -5px;
+    position: absolute;
+  }
+
+  .bttn-sections {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    max-width: 80%;
+    height: fit-content;
+    flex-wrap: wrap;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .bttn-section-all {
+    width: 100px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: ara;
+  }
+
+  .bttn-section-all:hover {
+    background-color: #ff7b01;
+    transition: 0.3s;
+  }
+
+  .line {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #e0dede;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .lo2am {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #e0dede;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    display: none;
+  }
+
+  .product-home-con {
+    width: 100%;
+    height: fit-content;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 120px;
+    height: 160px;
+  }
+
+  .product-img {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background-position: center;
+    background-size: 100% 120px;
+  }
+
+  .img-one {
+    background-image: url(../imgs/up-down-3lampa-jima.jpg);
+  }
+
+  .img-two {
+    background-image: url(../imgs/mora-remsh.png);
+  }
+
+  .img-three {
+    background-image: url(../imgs/spot-max.JPG);
+  }
+
+  .img-four {
+    background-image: url(../imgs/express-10watt-dable.jpg);
+  }
+
+  .img-five {
+    background-image: url(../imgs/expres-mraya.JPG);
+  }
+
+  .img-six {
+    background-image: url(../imgs/express-12wat-mdwar.jpg);
+  }
+
+  .img-seven {
+    background-image: url(../imgs/sama3a-gps.jpg);
+  }
+
+  .img-eight {
+    background-image: url(../imgs/galxy-48wat.jpg);
+  }
+
+  .img-nine {
+    background-image: url(../imgs/taywan-36wat.jpg);
+  }
+
+  .sale {
+    position: absolute;
+    top: 0;
+    margin-top: -35px;
+    margin-right: -35px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg);
+    background-color: #efefef;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sale-name {
+    position: absolute;
+    bottom: 3px;
+  }
+
+  .name-and-price-home {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    direction: rtl;
+  }
+
+  .name-product-sale-home {
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+  }
+
+  .price-product-sale-home {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top: 1px;
+    align-items: center;
+  }
+  .price-product-sale-home span {
+    display: block;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .lo2am-mfate7-con {
+    margin-top: 20px;
+  }
+
+  .con-bttn-section {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .section-lo2am-mfate7-bttn {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+
+  .con-bttn-section span {
+    width: 100px;
+    height: 30px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: ara;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #bttn-vinus {
+    background-color: #ff7b01;
+  }
+
+  .section-venus,
+  .section-sanchi {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .section-sanchi {
+    display: none;
+  }
+
+  .product-venus-con,
+  .product-sanchi-con {
+    width: 100%;
+    height: 495px;
+    overflow-y: hidden;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /***********************/
+
+  /* start section venus */
+
+  /***********************/
+
+  .product-venus-img {
+    background-size: cover;
+  }
+
+  .img-venus-one {
+    background-image: url(../imgs/venus/bareza-16amper-3ady-venus.JPG);
+  }
+
+  .img-venus-two {
+    background-image: url(../imgs/venus/lo2ma-mofta7-3ady.jpg);
+  }
+
+  .img-venus-three {
+    background-image: url(../imgs/venus/garaz-da5el-3asfora-venus.jpeg);
+  }
+
+  .img-venus-four {
+    background-image: url(../imgs/venus/lo2ma-garaz-3ady.jpeg);
+  }
+
+  .img-venus-five {
+    background-image: url(../imgs/venus/bareza-qwa-venus.JPG);
+  }
+
+  .img-venus-six {
+    background-image: url(../imgs/venus/baeza-mk.jpeg);
+  }
+
+  .img-venus-seven {
+    background-image: url(../imgs/venus/garaz-dakhel-zanan.jpeg);
+  }
+
+  .img-venus-eight {
+    background-image: url(../imgs/venus/kashaf-twareq.jpeg);
+  }
+
+  .img-venus-nine {
+    background-image: url(../imgs/venus/mofta7-3areed.jpeg);
+  }
+
+  .img-venus-ten {
+    background-image: url(../imgs/venus/mofta7-2faz.jpeg);
+  }
+
+  .img-venus-product11 {
+    background-image: url(../imgs/venus/mofta7-setara.jpeg);
+  }
+
+  .img-venus-product12 {
+    background-image: url(../imgs/venus/wesh/beg-3agy.jpeg);
+  }
+
+  .img-venus-product13 {
+    background-image: url(../imgs/venus/wesh/beg-kakaw-galaxy.jpeg);
+  }
+
+  .img-venus-product14 {
+    background-image: url(../imgs/venus/wesh/beg-kakaw-mt.jpeg);
+  }
+
+  .img-venus-product15 {
+    background-image: url(../imgs/venus/wesh/black-galaxy.jpeg);
+  }
+
+  .img-venus-product16 {
+    background-image: url(../imgs/venus/wesh/bony-galaxy.jpeg);
+  }
+
+  .img-venus-product17 {
+    background-image: url(../imgs/venus/wesh/dahby-mt.jpeg);
+  }
+
+  .img-venus-product18 {
+    background-image: url(../imgs/venus/wesh/ko7ly-mt.jpeg);
+  }
+
+  .img-venus-product19 {
+    background-image: url(../imgs/venus/wesh/romady-mt.jpeg);
+  }
+
+  .img-venus-product20 {
+    background-image: url(../imgs/venus/wesh/waite-mt.jpeg);
+  }
+
+  .img-venus-product21 {
+    background-image: url(../imgs/venus/shaceh-venus.jpeg);
+  }
+
+  .line-two {
+    margin-top: -160px;
+  }
+
+  .location-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .my-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  iframe {
+    width: 80%;
+    height: 200px;
+  }
+
+  .address-name-con {
+    text-align: center;
+    width: fit-content;
+  }
+  .address-name-con span h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .address-name-con .name-two-location {
+    letter-spacing: 5px;
+  }
+
+  .fa-angles-right,
+  .fa-angles-left {
+    font-size: 115px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #ff7b01;
+  }
+
+  .fa-angles-left{
+    margin-left: -5px;
+  }
+
+  .more-name,
+  .less-name {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .more-con-all,
+  .less-con-all {
+    cursor: pointer;
+  }
+
+  .more-color:hover {
+    background-color: #cdcdcd00;
+  }
+
+  
+  .less-color:hover {
+    background-color: #cdcdcd00;
+  }
+
+  .hov {
+    width: 100%;
+    height: 200px;
+  }
+
+  .line-three {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 429px) {
+  .bttn-section-all {
+    width: 85px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: ara;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 115px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 373px) {
+  .bttn-section-all {
+    width: 84px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: ara;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 112px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 369px) {
+  .bttn-section-all {
+    width: 83px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: ara;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 112px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 365px) {
+  .bttn-section-all {
+    width: 82px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: ara;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 110px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 361px) {
+  .bttn-section-all {
+    width: 82px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: ara;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 109px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 361px) {
+  .bttn-section-all {
+    width: 69px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: ara;
+  }
+
+  .product-home-all {
+    position: relative;
+    width: 92px;
+    height: 153px;
+  }
+
+  .product-img {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    background-position: center;
+    background-size: 100% 120px;
+  }
+}

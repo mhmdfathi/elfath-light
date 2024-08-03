@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ara;
+  font-family: codecproitalic;
+}
+
+@font-face {
+  src: url(../../fonts/CodecPro-Italic.ttf);
+  font-family: codecproitalic;
+}
+
+@font-face {
+  src: url(../../fonts/Ara\ Hamah\ 1964\ R.ttf);
+  font-family: ara;
+}
+
+@media (max-width: 430px) {
+  .product-header-imgs {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .hadden-img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 100% 300px;
+  }
+
+  .img-product-one {
+    background-image: url(../../imgs/taywan-36wat.jpg);
+  }
+
+  .img-product-two {
+    background-image: url(../../imgs/product-jimma-3-lamp-kartona.png);
+    display: none;
+  }
+  .img-product-three {
+    background-image: url(../../imgs/size-3lamp-jimma.png);
+    display: none;
+  }
+  .img-product-four {
+    background-image: url(../../imgs/size-2-3lamp-jimma.png);
+    display: none;
+  }
+  .img-product-five {
+    background-image: url(../../imgs/size-3-3lamp-jimma.png);
+    display: none;
+  }
+
+  .con {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .name {
+    max-width: 95%;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 30px;
+  }
+
+  .color-arabic {
+    color: #ff7b01;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .price {
+    display: flex;
+    gap: 7px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    font-size: 22px;
+  }
+  .baond {
+    display: inline-block;
+  }
+
+  .un-rell-price {
+    font-size: 15px;
+  }
+
+  .descond {
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #a2d1ff;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+  }
+
+  .my-product-picher {
+    margin-top: 10px;
+  }
+
+  .product-imgs-con {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 95%;
+    height: fit-content;
+    margin-top: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .name-product {
+    color: #ff7b01;
+  }
+
+  .product-img {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 65px 65px;
+  }
+
+  .bac-black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .bac-black:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    transition: 0.3s;
+  }
+
+  .imge-one {
+    background-image: url(../../imgs/taywan-36wat.jpg);
+  }
+
+  .imge-two {
+    background-image: url(../../imgs/product-jimma-3-lamp-kartona.png);
+  }
+
+  .imge-three {
+    background-image: url(../../imgs/size-3lamp-jimma.png);
+  }
+
+  .imge-four {
+    background-image: url(../../imgs/size-2-3lamp-jimma.png);
+  }
+
+  .imge-five {
+    background-image: url(../../imgs/size-3-3lamp-jimma.png);
+  }
+
+  .details {
+    margin-top: 10px;
+    max-width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .details-product {
+    margin-top: 7px;
+  }
+
+  .details-product span {
+    font-size: 15px;
+  }
+
+  .marka-light {
+    width: fit-content;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .marka-light span {
+    display: inline-block;
+  }
+
+  .wworm {
+    color: #ff7b01;
+  }
+
+  .elmarka {
+    color: #ff7b01;
+  }
+
+  .simi-product {
+    margin-top: 10px;
+  }
+
+  .simi-product-con {
+    
+    margin-top: 7px;
+    display: flex;
+    gap: 20px;
+    max-width: 95%;
+    height: fit-content;
+    flex-wrap: wrap;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+  }
+
+  .simi-product-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-size: 70px 70px;
+    background-position: center;
+  }
+
+  .simi-one {
+    background-image: url(../../imgs/updown-modern-1lamba-mora.jpg);
+  }
+  .simi-two {
+    background-image: url(../../imgs/updown-2lamba-mora.jpg);
+  }
+  .simi-three {
+    background-image: url(../../imgs/express-10watt-dable.jpg);
+  }
+  .simi-four {
+    background-image: url(../../imgs/track-wite-porsche.jpg);
+  }
+  .simi-five {
+    background-image: url(../../imgs/mora-brand-home.JPG);
+  }
+  .simi-six {
+    background-image: url(../../imgs/mora-remsh.png);
+  }
+  .simi-seven {
+    background-image: url(../../imgs/expres-mraya.JPG);
+  }
+  .simi-eight {
+    background-image: url(../../imgs/betshon-3-7arka.JPG);
+  }
+}
