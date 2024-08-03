@@ -669,7 +669,7 @@ a {
 
   .fa-angles-right,
   .fa-angles-left {
-    font-size: 115px;
+    font-size: 60px;
     margin-left: 10px;
     margin-top: 15px;
     color: #ff7b01;
@@ -684,7 +684,7 @@ a {
     display: flex;
     justify-content: center;
     font-size: 17px;
-    font-weight: bold;
+    margin-top: -22px;
   }
 
   .more-con-all,
@@ -833,3 +833,4 @@ a {
     background-size: 100% 120px;
   }
 }
+
