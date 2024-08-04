@@ -31,12 +31,8 @@ function moreConAll() {
       document.getElementById("hidden-product11").style.display = "block";
       document.getElementById("hidden-product12").style.display = "block";
       document.getElementById("hidden-product13").style.display = "block";
-      document.getElementById("hidden-product14").style.display = "block";
-      document.getElementById("hidden-product15").style.display = "block";
-      document.getElementById("hidden-product16").style.display = "block";
       document.getElementById("hidden-product-less").style.display = "block";
 
-  document.getElementById("line-location").style.marginTop = "-160px";
 
 }
 
@@ -56,11 +52,8 @@ function lessConAll() {
   document.getElementById("hidden-product11").style.display = "none";
   document.getElementById("hidden-product12").style.display = "none";
   document.getElementById("hidden-product13").style.display = "none";
-  document.getElementById("hidden-product14").style.display = "none";
-  document.getElementById("hidden-product15").style.display = "none";
-  document.getElementById("hidden-product16").style.display = "none";
+
   document.getElementById("hidden-product-less").style.display = "none";
-  document.getElementById("line-location").style.marginTop = "5px";
 
 }
 
@@ -124,12 +117,6 @@ function locationICON() {
 
 document.getElementById("icon-name-home").style.color = "#ff7b01";
 
-
-
-
-
-
-document.getElementById("icon-name-home").style.color = "#ff7b01";
 
 
 
