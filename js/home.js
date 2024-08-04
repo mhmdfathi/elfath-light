@@ -17,19 +17,50 @@ function bttnSanchi() {
 
 function moreConAll() {
  
-  document.getElementById("product-venus-con").style.height = "fit-content";
   document.getElementById("more-con-all").style.display = "none";
-      document.getElementById("less-con-all").style.display = "block";
+      document.getElementById("hidden-product1").style.display = "block";
+      document.getElementById("hidden-product2").style.display = "block";
+      document.getElementById("hidden-product3").style.display = "block";
+      document.getElementById("hidden-product4").style.display = "block";
+      document.getElementById("hidden-product5").style.display = "block";
+      document.getElementById("hidden-product6").style.display = "block";
+      document.getElementById("hidden-product7").style.display = "block";
+      document.getElementById("hidden-product8").style.display = "block";
+      document.getElementById("hidden-product9").style.display = "block";
+      document.getElementById("hidden-product10").style.display = "block";
+      document.getElementById("hidden-product11").style.display = "block";
+      document.getElementById("hidden-product12").style.display = "block";
+      document.getElementById("hidden-product13").style.display = "block";
+      document.getElementById("hidden-product14").style.display = "block";
+      document.getElementById("hidden-product15").style.display = "block";
+      document.getElementById("hidden-product16").style.display = "block";
+      document.getElementById("hidden-product-less").style.display = "block";
 
   document.getElementById("line-location").style.marginTop = "-160px";
 
 }
 
 function lessConAll() {
-  document.getElementById("product-venus-con").style.height = "";
-  document.getElementById("more-con-all").style.display = "";
+  
+  document.getElementById("more-con-all").style.display = "block";
+  document.getElementById("hidden-product1").style.display = "none";
+  document.getElementById("hidden-product2").style.display = "none";
+  document.getElementById("hidden-product3").style.display = "none";
+  document.getElementById("hidden-product4").style.display = "none";
+  document.getElementById("hidden-product5").style.display = "none";
+  document.getElementById("hidden-product6").style.display = "none";
+  document.getElementById("hidden-product7").style.display = "none";
+  document.getElementById("hidden-product8").style.display = "none";
+  document.getElementById("hidden-product9").style.display = "none";
+  document.getElementById("hidden-product10").style.display = "none";
+  document.getElementById("hidden-product11").style.display = "none";
+  document.getElementById("hidden-product12").style.display = "none";
+  document.getElementById("hidden-product13").style.display = "none";
+  document.getElementById("hidden-product14").style.display = "none";
+  document.getElementById("hidden-product15").style.display = "none";
+  document.getElementById("hidden-product16").style.display = "none";
+  document.getElementById("hidden-product-less").style.display = "none";
   document.getElementById("line-location").style.marginTop = "5px";
-    document.getElementById("less-con-all").style.display = "none";
 
 }
 
@@ -89,6 +120,13 @@ function locationICON() {
   document.getElementById("icon-name-home").style.color = "black";
   document.getElementById("icon-name-location").style.color = "#ff7b01";
 }
+
+
+document.getElementById("icon-name-home").style.color = "#ff7b01";
+
+
+
+
 
 
 document.getElementById("icon-name-home").style.color = "#ff7b01";
