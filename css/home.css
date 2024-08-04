@@ -84,7 +84,7 @@ a {
     align-items: center;
     justify-content: center;
     left: 20px;
-    font-size: 20px;
+    font-size: 19px;
     margin-top: 50px;
     font-family: ara;
   }
@@ -479,6 +479,10 @@ a {
     visibility: hidden;
   }
 
+  .hidd-pc{
+    display: none;
+  }
+
   .lo2am-mfate7-con {
     margin-top: 20px;
   }
@@ -635,9 +639,7 @@ a {
     display: none;
   }
 
-  .line-two {
-    margin-top: -160px;
-  }
+  
 
   .location-con {
     width: 100%;
@@ -717,9 +719,7 @@ a {
     height: 200px;
   }
 
-  .line-three {
-    margin-top: 5px;
-  }
+  
 }
 
 @media (max-width: 429px) {
@@ -734,10 +734,12 @@ a {
     font-family: ara;
   }
 
-  .product-home-all {
-    position: relative;
-    width: 115px;
-    height: 160px;
+ 
+}
+
+@media (max-width: 386px){
+  .hidd-pc-sale{
+    display: block;
   }
 }
 
@@ -753,11 +755,7 @@ a {
     font-family: ara;
   }
 
-  .product-home-all {
-    position: relative;
-    width: 112px;
-    height: 160px;
-  }
+ 
 }
 
 @media (max-width: 369px) {
@@ -772,11 +770,7 @@ a {
     font-family: ara;
   }
 
-  .product-home-all {
-    position: relative;
-    width: 112px;
-    height: 160px;
-  }
+
 }
 
 @media (max-width: 365px) {
@@ -791,11 +785,7 @@ a {
     font-family: ara;
   }
 
-  .product-home-all {
-    position: relative;
-    width: 110px;
-    height: 160px;
-  }
+
 }
 
 @media (max-width: 361px) {
@@ -810,11 +800,7 @@ a {
     font-family: ara;
   }
 
-  .product-home-all {
-    position: relative;
-    width: 109px;
-    height: 160px;
-  }
+ 
 }
 
 @media (max-width: 361px) {
@@ -829,11 +815,7 @@ a {
     font-family: ara;
   }
 
-  .product-home-all {
-    position: relative;
-    width: 92px;
-    height: 153px;
-  }
+ 
 
   .product-img {
     position: absolute;
@@ -844,3 +826,4 @@ a {
     background-size: 100% 120px;
   }
 }
+
