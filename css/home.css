@@ -389,7 +389,7 @@ a {
   }
 
   .img-one {
-    background-image: url(../imgs/up-down-3lampa-jima.JPG);
+    background-image: url(../imgs/up-down-3lampa-jima.jpg);
   }
 
   .img-two {
@@ -530,7 +530,7 @@ a {
   .product-venus-con,
   .product-sanchi-con {
     width: 100%;
-    height: 495px;
+    height: fit-content;
     overflow-y: hidden;
     display: flex;
     gap: 5px;
@@ -552,7 +552,7 @@ a {
   }
 
   .img-venus-two {
-    background-image: url(../imgs/venus/lo2ma-mofta7-3ady.JPG);
+    background-image: url(../imgs/venus/lo2ma-mofta7-3ady.jpg);
   }
 
   .img-venus-three {
@@ -631,6 +631,10 @@ a {
     background-image: url(../imgs/venus/shaceh-venus.jpeg);
   }
 
+  .hidden-product {
+    display: none;
+  }
+
   .line-two {
     margin-top: -160px;
   }
@@ -675,7 +679,7 @@ a {
     color: #ff7b01;
   }
 
-  .fa-angles-left{
+  .fa-angles-left {
     margin-left: -5px;
   }
 
@@ -692,13 +696,20 @@ a {
     cursor: pointer;
   }
 
+  #less{
+    display: none;
+  }
+
   .more-color:hover {
     background-color: #cdcdcd00;
   }
 
-  
   .less-color:hover {
     background-color: #cdcdcd00;
+  }
+
+  .hidden-product{
+    display: none;
   }
 
   .hov {
@@ -833,4 +844,3 @@ a {
     background-size: 100% 120px;
   }
 }
-
