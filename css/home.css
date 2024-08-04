@@ -537,7 +537,7 @@ a {
     height: fit-content;
     overflow-y: hidden;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
   }
