@@ -333,6 +333,7 @@ a {
     justify-content: center;
     font-size: 20px;
     font-family: ara;
+    cursor: pointer;
   }
 
   .bttn-section-all:hover {
@@ -377,6 +378,7 @@ a {
     position: relative;
     width: 120px;
     height: 160px;
+
   }
 
   .product-img {
@@ -389,7 +391,7 @@ a {
   }
 
   .img-one {
-    background-image: url(../imgs/up-down-3lampa-jima.JPG);
+    background-image: url(../imgs/up-down-3lampa-jima.jpg);
   }
 
   .img-two {
@@ -552,47 +554,47 @@ a {
   }
 
   .img-venus-one {
-    background-image: url(../imgs/venus/bareza-16amper-3ady-venus.JPG);
+    background-image: url(../imgs/venus/bareza-16amper-3ady-venus.png);
   }
 
   .img-venus-two {
-    background-image: url(../imgs/venus/lo2ma-mofta7-3ady.JPG);
+    background-image: url(../imgs/venus/lo2ma-mofta7-3ady.png);
   }
 
   .img-venus-three {
-    background-image: url(../imgs/venus/garaz-da5el-3asfora-venus.jpeg);
+    background-image: url(../imgs/venus/garaz-da5el-3asfora-venus.png);
   }
 
   .img-venus-four {
-    background-image: url(../imgs/venus/lo2ma-garaz-3ady.jpeg);
+    background-image: url(../imgs/venus/lo2ma-garaz-3ady.png);
   }
 
   .img-venus-five {
-    background-image: url(../imgs/venus/bareza-qwa-venus.JPG);
+    background-image: url(../imgs/venus/bareza-qwa-venus.png);
   }
 
   .img-venus-six {
-    background-image: url(../imgs/venus/baeza-mk.jpeg);
+    background-image: url(../imgs/venus/baeza-mk.png);
   }
 
   .img-venus-seven {
-    background-image: url(../imgs/venus/garaz-dakhel-zanan.jpeg);
+    background-image: url(../imgs/venus/garaz-dakhel-zanan.png);
   }
 
   .img-venus-eight {
-    background-image: url(../imgs/venus/kashaf-twareq.jpeg);
+    background-image: url(../imgs/venus/kashaf-twareq.png);
   }
 
   .img-venus-nine {
-    background-image: url(../imgs/venus/mofta7-3areed.jpeg);
+    background-image: url(../imgs/venus/mofta7-3areed.png);
   }
 
   .img-venus-ten {
-    background-image: url(../imgs/venus/mofta7-2faz.jpeg);
+    background-image: url(../imgs/venus/mofta7-2faz.png);
   }
 
   .img-venus-product11 {
-    background-image: url(../imgs/venus/mofta7-setara.jpeg);
+    background-image: url(../imgs/venus/mofta7-setara.png);
   }
 
   .img-venus-product12 {
@@ -713,6 +715,15 @@ a {
   .hidden-product{
     display: none;
   }
+
+.spotat-con{
+  display: none;
+}
+
+.golop-con{
+  display: none;
+}
+
 
   .hov {
     width: 100%;
