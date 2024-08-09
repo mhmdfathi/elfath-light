@@ -470,7 +470,6 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 3px;
-    margin-top: 1px;
     align-items: center;
   }
   .price-product-sale-home span {
