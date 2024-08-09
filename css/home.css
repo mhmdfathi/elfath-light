@@ -724,6 +724,63 @@ a {
   display: none;
 }
 
+#selk-btn-section, 
+#selk-all-btn{
+  background-color: #ff7b01;
+}
+
+.right-marg{
+margin-top: 10px;
+
+ 
+}
+
+.secthion-child{
+max-width: 90px;
+ max-height: 30px;
+}
+
+
+ 
+
+
+
+.img-eleslamya-one-mill{
+  background-image: url(../imgs/2slak/selk-eleslamya-1.5mille.JPG);
+}
+
+.img-eleslamya-one-wnos-mill{
+  background-image: url(../imgs/2slak/selk-eleslamya-1.5mille.JPG);
+}
+
+.img-eleslamya-two-mill{
+  background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
+}
+
+.img-eleslamya-three-mill{
+  background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
+}
+
+.img-eleslamya-four-mill{
+  background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
+}
+
+.img-elfernceya-one-wenos-mill{
+  background-image: url(../imgs/2slak/selk-elferncya-1.5mille.JPG);
+}
+
+.img-elfernceya-two-mill{
+  background-image: url(../imgs/2slak/selk-elferncya-two-mille.JPG);
+}
+
+.img-elfernceya-three-mill{
+  background-image: url(../imgs/2slak/selk-elferncya-three-mille.JPG);
+}
+
+.img-elfernceya-four-mill{
+  background-image: url(../imgs/2slak/selk-elferncya-4mille.JPG.jpeg);
+}
+
 
   .hov {
     width: 100%;
@@ -837,4 +894,3 @@ a {
     background-size: 100% 120px;
   }
 }
-
