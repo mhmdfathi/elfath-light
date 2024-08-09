@@ -29,6 +29,24 @@ function moreConAll() {
   document.getElementById("hidden-product-less").style.display = "block";
 }
 
+function moreBanalat() {
+  document.getElementById("banal-hidd-one").style.display = "block";
+  document.getElementById("banal-hidd-two").style.display = "block";
+  document.getElementById("banal-hidd-three").style.display = "block";
+  document.getElementById("more-banalat").style.display = "none";
+  document.getElementById("hidden-product-less-banalat").style.display =
+    "block";
+}
+
+function lessBanalat() {
+  document.getElementById("banal-hidd-one").style.display = "none";
+  document.getElementById("banal-hidd-two").style.display = "none";
+  document.getElementById("banal-hidd-three").style.display = "none";
+  document.getElementById("more-banalat").style.display = "block";
+  document.getElementById("hidden-product-less-banalat").style.display =
+    "none";
+}
+
 function lessConAll() {
   document.getElementById("more-con-all").style.display = "block";
   document.getElementById("hidden-product1").style.display = "none";
@@ -244,7 +262,4 @@ function selkAllBtn() {
   document.getElementById("selk-all-btn").style.backgroundColor = "#ff7b01";
   document.getElementById("elfrenceya-btn").style.backgroundColor = "";
 }
-
-
-
 
