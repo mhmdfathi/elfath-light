@@ -639,6 +639,10 @@ a {
     display: none;
   }
 
+  #hidden-product-less-banalat{
+    display: none;
+  }
+
   .location-con {
     width: 100%;
     display: flex;
