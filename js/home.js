@@ -103,19 +103,12 @@ function spotatBttn() {
   document.getElementById("banalatBttn").style.backgroundColor = "";
   document.getElementById("tracatBttn").style.backgroundColor = "";
   document.getElementById("golopBttn").style.backgroundColor = "";
-      document.getElementById("lambatBttn").style.backgroundColor = "";
+  document.getElementById("lambatBttn").style.backgroundColor = "";
 
-
-
-
-      document.getElementById("banalat-con").style.display = "none";
-      document.getElementById("spotat-con").style.display = "flex";
-      document.getElementById("golop-con").style.display = "none";
-      
-      
-      
-    }
-
+  document.getElementById("banalat-con").style.display = "none";
+  document.getElementById("spotat-con").style.display = "flex";
+  document.getElementById("golop-con").style.display = "none";
+}
 
 function banalatBttn() {
   document.getElementById("spotatBttn").style.backgroundColor = "";
@@ -125,11 +118,9 @@ function banalatBttn() {
   document.getElementById("dalyatBttn").style.backgroundColor = "";
   document.getElementById("lambatBttn").style.backgroundColor = "";
 
-
-  
-      document.getElementById("banalat-con").style.display = "flex";
-      document.getElementById("spotat-con").style.display = "none";
-      document.getElementById("golop-con").style.display = "none";
+  document.getElementById("banalat-con").style.display = "flex";
+  document.getElementById("spotat-con").style.display = "none";
+  document.getElementById("golop-con").style.display = "none";
 }
 
 function tracatBttn() {
@@ -140,10 +131,9 @@ function tracatBttn() {
   document.getElementById("dalyatBttn").style.backgroundColor = "";
   document.getElementById("lambatBttn").style.backgroundColor = "";
 
-
-    document.getElementById("banalat-con").style.display = "none";
-    document.getElementById("spotat-con").style.display = "none";
-    document.getElementById("golop-con").style.display = "none";
+  document.getElementById("banalat-con").style.display = "none";
+  document.getElementById("spotat-con").style.display = "none";
+  document.getElementById("golop-con").style.display = "none";
 }
 
 function golopBttn() {
@@ -154,11 +144,9 @@ function golopBttn() {
   document.getElementById("dalyatBttn").style.backgroundColor = "";
   document.getElementById("lambatBttn").style.backgroundColor = "";
 
-
-  
-      document.getElementById("banalat-con").style.display = "none";
-      document.getElementById("spotat-con").style.display = "none";
-      document.getElementById("golop-con").style.display = "flex";
+  document.getElementById("banalat-con").style.display = "none";
+  document.getElementById("spotat-con").style.display = "none";
+  document.getElementById("golop-con").style.display = "flex";
 }
 
 function dalyatBttn() {
@@ -169,10 +157,9 @@ function dalyatBttn() {
   document.getElementById("dalyatBttn").style.backgroundColor = "#ff7b01";
   document.getElementById("lambatBttn").style.backgroundColor = "";
 
-  
-    document.getElementById("banalat-con").style.display = "none";
-    document.getElementById("spotat-con").style.display = "none";
-    document.getElementById("golop-con").style.display = "none";
+  document.getElementById("banalat-con").style.display = "none";
+  document.getElementById("spotat-con").style.display = "none";
+  document.getElementById("golop-con").style.display = "none";
 }
 
 function lambatBttn() {
@@ -183,11 +170,81 @@ function lambatBttn() {
   document.getElementById("dalyatBttn").style.backgroundColor = "";
   document.getElementById("lambatBttn").style.backgroundColor = "#ff7b01";
 
-  
-    document.getElementById("banalat-con").style.display = "none";
-    document.getElementById("spotat-con").style.display = "none";
-    document.getElementById("golop-con").style.display = "none";
+  document.getElementById("banalat-con").style.display = "none";
+  document.getElementById("spotat-con").style.display = "none";
+  document.getElementById("golop-con").style.display = "none";
 }
+
+function kharatemBtnSection() {
+  document.getElementById("selk-btn-section").style.backgroundColor = "#efefef";
+  document.getElementById("kharatem-btn-section").style.backgroundColor =
+    "#ff7b01";
+
+  document.getElementById("selks-all-cabule").style.display = "none";
+  document.getElementById("selk-bttn").style.display = "none";
+
+  document.getElementById("kharatem-all-con").style.display = "flex";
+}
+
+function selKbtnSection() {
+  document.getElementById("selk-btn-section").style.backgroundColor = "#ff7b01";
+  document.getElementById("kharatem-btn-section").style.backgroundColor =
+    "#efefef";
+
+  document.getElementById("selks-all-cabule").style.display = "flex";
+  document.getElementById("selk-bttn").style.display = "flex";
+
+  document.getElementById("kharatem-all-con").style.display = "none";
+}
+
+function elfrenceyaBtn() {
+  document.getElementById("eleslamya-one").style.display = "none";
+  document.getElementById("eleslamya-two").style.display = "none";
+  document.getElementById("eleslamya-three").style.display = "none";
+  document.getElementById("eleslamya-four").style.display = "none";
+  document.getElementById("eleslamya-five").style.display = "none";
+  document.getElementById("elfernceya-one").style.display = "block";
+  document.getElementById("elfernceya-two").style.display = "block";
+  document.getElementById("elfernceya-three").style.display = "block";
+  document.getElementById("elfernceya-four").style.display = "block";
+
+  document.getElementById("eleslamya-btm").style.backgroundColor = "";
+  document.getElementById("selk-all-btn").style.backgroundColor = "#efefef";
+  document.getElementById("elfrenceya-btn").style.backgroundColor = "#ff7b01";
+}
+
+function eleslamyaBtm() {
+  document.getElementById("eleslamya-one").style.display = "block";
+  document.getElementById("eleslamya-two").style.display = "block";
+  document.getElementById("eleslamya-three").style.display = "block";
+  document.getElementById("eleslamya-four").style.display = "block";
+  document.getElementById("eleslamya-five").style.display = "block";
+  document.getElementById("elfernceya-one").style.display = "none";
+  document.getElementById("elfernceya-two").style.display = "none";
+  document.getElementById("elfernceya-three").style.display = "none";
+  document.getElementById("elfernceya-four").style.display = "none";
+
+  document.getElementById("eleslamya-btm").style.backgroundColor = "#ff7b01";
+  document.getElementById("selk-all-btn").style.backgroundColor = "#efefef";
+  document.getElementById("elfrenceya-btn").style.backgroundColor = "";
+}
+
+function selkAllBtn() {
+  document.getElementById("eleslamya-one").style.display = "block";
+  document.getElementById("eleslamya-two").style.display = "block";
+  document.getElementById("eleslamya-three").style.display = "block";
+  document.getElementById("eleslamya-four").style.display = "block";
+  document.getElementById("eleslamya-five").style.display = "block";
+  document.getElementById("elfernceya-one").style.display = "block";
+  document.getElementById("elfernceya-two").style.display = "block";
+  document.getElementById("elfernceya-three").style.display = "block";
+  document.getElementById("elfernceya-four").style.display = "block";
+
+  document.getElementById("eleslamya-btm").style.backgroundColor = "";
+  document.getElementById("selk-all-btn").style.backgroundColor = "#ff7b01";
+  document.getElementById("elfrenceya-btn").style.backgroundColor = "";
+}
+
 
 
 
