@@ -871,7 +871,7 @@ max-width: 90px;
  
 }
 
-@media (max-width: 361px) {
+@media (max-width: 415px) {
   .bttn-section-all {
     width: 69px;
     height: 40px;
@@ -893,4 +893,143 @@ max-width: 90px;
     background-position: center;
     background-size: 100% 120px;
   }
+
+      .product-home-all {
+        position: relative;
+        width: 110px;
+        height: 150px;
+    }
+        .more-name, .less-name {
+       
+        margin-top: -15px;
+    }
+
 }
+
+@media (max-width: 380px) {
+  .bttn-section-all {
+    width: 69px;
+    height: 40px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: ara;
+  }
+
+ 
+
+  .product-img {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-position: center;
+    background-size: 100% 120px;
+  }
+
+      .product-home-all {
+        position: relative;
+        width: 95px;
+        height: 140px;
+    }
+     .more-name, .less-name {
+       
+        margin-top: -10px;
+    }
+
+}
+
+@media (max-width: 346px) {
+    .header-name-three {
+      
+       
+        font-size: 18px;
+      
+    }
+  }
+@media (max-width: 330px) {
+
+      .header-name-one {
+        font-size: 39px;
+    }
+
+    .header-name-two {
+        
+        font-size: 19px;
+      
+    }
+        .header-name-three {
+       
+        font-size: 15px;
+      
+    }
+
+      .bttn-section-all {
+        width: 64px;
+    }
+
+
+  .bttn-section-all {
+    width: 69px;
+    height: 40px;
+    font-size: 13px;
+   
+  }
+
+ 
+
+  .product-img {
+    width: 100%;
+    height: 90px;
+
+  }
+
+      .product-home-all {
+      
+        width: 90px;
+        height: 130px;
+    }
+     .more-name, .less-name {
+       
+        margin-top: -5px;
+    }
+
+}
+
+
+@media (max-width: 261px) {
+
+    .header-name-two {
+       
+        margin-left: 20px;
+     
+    }
+        .header-name-one {
+      
+        margin-left: 15px;
+       
+    }
+    .header-name-three {
+     
+    
+        left: 3px;
+       
+    }
+
+       .sersh-con {
+     
+        margin-left: 3px;
+    }
+
+        #myInput {
+        width: 140px;
+    
+    }
+
+        .fixed-icons-con {
+    
+        gap: 10px;
+    }
+  }
