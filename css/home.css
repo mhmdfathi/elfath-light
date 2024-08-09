@@ -378,7 +378,6 @@ a {
     position: relative;
     width: 120px;
     height: 160px;
-
   }
 
   .product-img {
@@ -387,11 +386,11 @@ a {
     height: 120px;
     overflow: hidden;
     background-position: center;
-    background-size: 100% 120px;
+    background-size: cover;
   }
 
   .img-one {
-    background-image: url(../imgs/up-down-3lampa-jima.JPG);
+    background-image: url(../imgs/up-down-3lampa-jima.jpg);
   }
 
   .img-two {
@@ -480,7 +479,7 @@ a {
     visibility: hidden;
   }
 
-  .hidd-pc{
+  .hidd-pc {
     display: none;
   }
 
@@ -640,8 +639,6 @@ a {
     display: none;
   }
 
-  
-
   .location-con {
     width: 100%;
     display: flex;
@@ -699,7 +696,7 @@ a {
     cursor: pointer;
   }
 
-  #less{
+  #less {
     display: none;
   }
 
@@ -711,82 +708,113 @@ a {
     background-color: #cdcdcd00;
   }
 
-  .hidden-product{
+  .hidden-product {
     display: none;
   }
 
-.spotat-con{
-  display: none;
-}
+  .spotat-con {
+    display: none;
+  }
 
-.golop-con{
-  display: none;
-}
+  .golop-con {
+    display: none;
+  }
 
-#selk-btn-section, 
-#selk-all-btn{
-  background-color: #ff7b01;
-}
+  #selk-btn-section,
+  #selk-all-btn {
+    background-color: #ff7b01;
+  }
 
-.right-marg{
-margin-top: 10px;
+  .right-marg {
+    margin-top: 10px;
+  }
 
- 
-}
+  .secthion-child {
+    max-width: 90px;
+    max-height: 30px;
+  }
 
-.secthion-child{
-max-width: 90px;
- max-height: 30px;
-}
+  /** بدأ سيكشن البانالات **/
+
+  .img-star-35watt {
+    background-image: url(../imgs/banalat/banal-star-mora-35watt-dakhel-khareg.png);
+  }
+
+  .img-star-3-7araka-mora-khareg {
+    background-image: url(../imgs/banalat/banal-35watt-mora-3-7araka-khareg.png);
+  }
+
+  .img-balata-30-30-lamba {
+    background-image: url(../imgs/banalat/balata-24watt-lamba-dakhel-30-30.png);
+  }
+
+  .img-banal-24watt-lamba-khareg {
+    background-image: url(../imgs/banalat/banal-24watt-lamba-khreg.png);
+  }
+
+  .img-banel-star-45watt-mora {
+    background-image: url(../imgs/banalat/banal-star-mora-45watt-dakhel-khareg.png);
+  }
+
+  .img-banal-36watt-lamba-khareg {
+    background-image: url(../imgs/banalat/banal-36watt-lamba-khreg.png);
+  }
+
+  .img-banal-24watt-dakhel-lamba {
+    background-image: url(../imgs/banalat/banal-24watt-lamba-dakhel.png);
+  }
+
+  .img-banal-36-watt-dakhel-lamba {
+    background-image: url(../imgs/banalat/banal-36watt-lamba-dakhel.png);
+  }
+
+  .img-banal-36watt-moraba3-dakhel-lamba {
+    background-image: url(../imgs/banalat/banal-36watt-lamba-moraba3-dakhel.png);
+  }
+
+    /** انهاء سيكشن البانالات **/
 
 
- 
+  .img-eleslamya-one-mill {
+    background-image: url(../imgs/2slak/selk-eleslamya-1.5mille.JPG);
+  }
 
+  .img-eleslamya-one-wnos-mill {
+    background-image: url(../imgs/2slak/selk-eleslamya-1.5mille.JPG);
+  }
 
+  .img-eleslamya-two-mill {
+    background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
+  }
 
-.img-eleslamya-one-mill{
-  background-image: url(../imgs/2slak/selk-eleslamya-1.5mille.JPG);
-}
+  .img-eleslamya-three-mill {
+    background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
+  }
 
-.img-eleslamya-one-wnos-mill{
-  background-image: url(../imgs/2slak/selk-eleslamya-1.5mille.JPG);
-}
+  .img-eleslamya-four-mill {
+    background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
+  }
 
-.img-eleslamya-two-mill{
-  background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
-}
+  .img-elfernceya-one-wenos-mill {
+    background-image: url(../imgs/2slak/selk-elferncya-1.5mille.JPG);
+  }
 
-.img-eleslamya-three-mill{
-  background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
-}
+  .img-elfernceya-two-mill {
+    background-image: url(../imgs/2slak/selk-elferncya-two-mille.JPG);
+  }
 
-.img-eleslamya-four-mill{
-  background-image: url(../imgs/2slak/selk-eleslamya-2mille.JPG);
-}
+  .img-elfernceya-three-mill {
+    background-image: url(../imgs/2slak/selk-elferncya-three-mille.JPG);
+  }
 
-.img-elfernceya-one-wenos-mill{
-  background-image: url(../imgs/2slak/selk-elferncya-1.5mille.JPG);
-}
-
-.img-elfernceya-two-mill{
-  background-image: url(../imgs/2slak/selk-elferncya-two-mille.JPG);
-}
-
-.img-elfernceya-three-mill{
-  background-image: url(../imgs/2slak/selk-elferncya-three-mille.JPG);
-}
-
-.img-elfernceya-four-mill{
-  background-image: url(../imgs/2slak/selk-elferncya-4mille.JPG.jpeg);
-}
-
+  .img-elfernceya-four-mill {
+    background-image: url(../imgs/2slak/selk-elferncya-4mille.JPG.jpeg);
+  }
 
   .hov {
     width: 100%;
     height: 200px;
   }
-
-  
 }
 
 @media (max-width: 429px) {
@@ -800,12 +828,10 @@ max-width: 90px;
     font-size: 16px;
     font-family: ara;
   }
-
- 
 }
 
-@media (max-width: 386px){
-  .hidd-pc-sale{
+@media (max-width: 386px) {
+  .hidd-pc-sale {
     display: block;
   }
 }
@@ -821,8 +847,6 @@ max-width: 90px;
     font-size: 16px;
     font-family: ara;
   }
-
- 
 }
 
 @media (max-width: 369px) {
@@ -836,8 +860,6 @@ max-width: 90px;
     font-size: 16px;
     font-family: ara;
   }
-
-
 }
 
 @media (max-width: 365px) {
@@ -851,8 +873,6 @@ max-width: 90px;
     font-size: 16px;
     font-family: ara;
   }
-
-
 }
 
 @media (max-width: 361px) {
@@ -866,8 +886,6 @@ max-width: 90px;
     font-size: 16px;
     font-family: ara;
   }
-
- 
 }
 
 @media (max-width: 415px) {
@@ -882,27 +900,21 @@ max-width: 90px;
     font-family: ara;
   }
 
- 
-
   .product-img {
-    position: absolute;
     width: 100%;
     height: 110px;
-    overflow: hidden;
-    background-position: center;
-    background-size: 100% 120px;
+    
   }
 
-      .product-home-all {
-        position: relative;
-        width: 110px;
-        height: 150px;
-    }
-        .more-name, .less-name {
-       
-        margin-top: -15px;
-    }
-
+  .product-home-all {
+    position: relative;
+    width: 110px;
+    height: 150px;
+  }
+  .more-name,
+  .less-name {
+    margin-top: -15px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -917,123 +929,90 @@ max-width: 90px;
     font-family: ara;
   }
 
- 
-
   .product-img {
-    position: absolute;
+ 
     width: 100%;
     height: 100px;
-    overflow: hidden;
-    background-position: center;
-    background-size: 100% 120px;
+   
   }
 
-      .product-home-all {
-        position: relative;
-        width: 95px;
-        height: 140px;
-    }
-     .more-name, .less-name {
-       
-        margin-top: -10px;
-    }
-
+  .product-home-all {
+    position: relative;
+    width: 95px;
+    height: 140px;
+  }
+  .more-name,
+  .less-name {
+    margin-top: -10px;
+  }
 }
 
 @media (max-width: 346px) {
-    .header-name-three {
-      
-       
-        font-size: 18px;
-      
-    }
+  .header-name-three {
+    font-size: 18px;
   }
+}
 @media (max-width: 330px) {
+  .header-name-one {
+    font-size: 39px;
+  }
 
-      .header-name-one {
-        font-size: 39px;
-    }
+  .header-name-two {
+    font-size: 19px;
+  }
+  .header-name-three {
+    font-size: 15px;
+  }
 
-    .header-name-two {
-        
-        font-size: 19px;
-      
-    }
-        .header-name-three {
-       
-        font-size: 15px;
-      
-    }
-
-      .bttn-section-all {
-        width: 64px;
-    }
-
+  .bttn-section-all {
+    width: 64px;
+  }
 
   .bttn-section-all {
     width: 69px;
     height: 40px;
     font-size: 13px;
-   
   }
-  .name-and-price-home {
-  
-        font-size: 12px;
-        
-    }
 
- 
+  .name-and-price-home {
+    font-size: 12px;
+  }
 
   .product-img {
     width: 100%;
     height: 90px;
-
   }
 
-      .product-home-all {
-      
-        width: 90px;
-        height: 130px;
-    }
-     .more-name, .less-name {
-       
-        margin-top: -5px;
-    }
-
+  .product-home-all {
+    width: 90px;
+    height: 130px;
+  }
+  .more-name,
+  .less-name {
+    margin-top: -5px;
+  }
 }
 
-
 @media (max-width: 261px) {
-
-    .header-name-two {
-       
-        margin-left: 20px;
-     
-    }
-        .header-name-one {
-      
-        margin-left: 15px;
-       
-    }
-    .header-name-three {
-     
-    
-        left: 3px;
-       
-    }
-
-       .sersh-con {
-     
-        margin-left: 3px;
-    }
-
-        #myInput {
-        width: 140px;
-    
-    }
-
-        .fixed-icons-con {
-    
-        gap: 10px;
-    }
+  .header-name-two {
+    margin-left: 20px;
   }
+  .header-name-one {
+    margin-left: 15px;
+  }
+  .header-name-three {
+    left: 3px;
+  }
+
+  .sersh-con {
+    margin-left: 3px;
+  }
+
+  #myInput {
+    width: 140px;
+  }
+
+  .fixed-icons-con {
+    gap: 10px;
+  }
+}
